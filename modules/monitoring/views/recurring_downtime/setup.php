@@ -60,7 +60,7 @@
 				<td colspan="2"><hr /></td>
 			</tr>
 			<tr>
-				<td class="label sub-heading"><?php echo _('Downtime'); ?></td>
+				<td class="label sub-heading"><?php echo _('First scheduled downtime'); ?></td>
 			</tr>
 			<tr>
 				<td class="label" colspan="2" >
@@ -102,6 +102,9 @@
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td class="label sub-heading"><?php echo _('Recurrence pattern'); ?></td>
+				</tr>  
 				<tr>
 					<td class="label"><?php echo _('Recurrence'); ?></td>
 					<td><?php
